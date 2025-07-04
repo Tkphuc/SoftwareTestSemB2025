@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Login with valid credentials.
+2. Click the top-left menu (≡).
+3. Click Logout.
+4. Verify that the login form is displayed again.</description>
+   <name>Logout</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e83ada3a-fa5a-4949-821e-4eb5159497e3</testCaseGuid>
+</TestCaseEntity>

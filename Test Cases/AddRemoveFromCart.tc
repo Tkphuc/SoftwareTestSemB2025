@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Login with standard_user credentials.
+2. Click “Add to cart” on any two products.
+3. Click the Cart icon.
+4. Verify that both items are listed in the cart.
+5. Click Remove on one item.
+6. Verify that only one item remains in the cart.</description>
+   <name>AddRemoveFromCart</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>12a8a9e4-fd0e-474c-ab64-61f76cf44b55</testCaseGuid>
+</TestCaseEntity>

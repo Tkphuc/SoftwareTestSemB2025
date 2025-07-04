@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Navigate to https://www.saucedemo.com.
+2. Enter:
+• Username: standard_user
+• Password: secret_sauce
+3. Click the Login button.
+4. Verify that the URL contains /inventory.html.
+5. Verify that the page displays the heading text “Products”.</description>
+   <name>SuccessfulLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4218d661-ee1f-4da0-bc13-a447e16e4c32</testCaseGuid>
+</TestCaseEntity>

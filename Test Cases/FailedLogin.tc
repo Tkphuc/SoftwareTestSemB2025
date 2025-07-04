@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Enter:
+• Username: locked_out_user
+8
+• Password: secret_sauce
+2. Click the Login button.
+3. Verify that the following error message appears: “Epic sadface: Sorry, this user has
+been locked out.”</description>
+   <name>FailedLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d8d495f9-a7bb-4017-bdb2-465485fe7db5</testCaseGuid>
+</TestCaseEntity>
