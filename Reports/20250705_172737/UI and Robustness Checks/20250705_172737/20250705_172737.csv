@@ -1,0 +1,62 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+UI and Robustness Checks,Edge Chromium 138.0.3351.65,,,05-07-2025 17:27:53,05-07-2025 17:29:09,"1m - 15,746s",PASSED
+,,,,,,,
+Test Cases/BrokenObject,Edge Chromium 138.0.3351.65,,,05-07-2025 17:27:56,05-07-2025 17:28:41,"45,450s",PASSED
+"openBrowser("""")",Edge Chromium 138.0.3351.65,,,05-07-2025 17:27:58,05-07-2025 17:28:06,"7,933s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Edge Chromium 138.0.3351.65,,,05-07-2025 17:28:06,05-07-2025 17:28:07,"1,112s",PASSED
+"setText(findTestObject(""Object Repository/BrokenObject/Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",Edge Chromium 138.0.3351.65,,,05-07-2025 17:28:07,05-07-2025 17:28:09,"2,347s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/BrokenObject/Page_Swag Labs/input_Swag Labs_password""), ""qcu24s4901FyWDTwXGr6XA=="")",Edge Chromium 138.0.3351.65,,,05-07-2025 17:28:09,05-07-2025 17:28:10,"0,451s",PASSED
+"click(findTestObject(""Object Repository/BrokenObject/Page_Swag Labs/input_Swag Labs_login-button""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:28:10,05-07-2025 17:28:41,"31,568s",PASSED
+,,,,,,,
+Test Cases/CompleteCheckout,Edge Chromium 138.0.3351.65,"1. Login with valid credentials. 
+2. Add one item to the cart. 
+3. Go to the cart and click Checkout. 
+4. Fill in the checkout information: 
+• First Name: John 
+• Last Name: Doe 
+• Zip/Postal Code: 12345 
+5. Click Continue, then Finish. 
+6. Verify that the confirmation message appears: “Thank you for your order!”.",,05-07-2025 17:28:41,05-07-2025 17:28:56,"14,311s",PASSED
+"openBrowser("""")",Edge Chromium 138.0.3351.65,,,05-07-2025 17:28:42,05-07-2025 17:28:45,"3,389s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Edge Chromium 138.0.3351.65,,,05-07-2025 17:28:45,05-07-2025 17:28:46,"0,701s",PASSED
+"setText(findTestObject(""Object Repository/CompleteCheckout/Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",Edge Chromium 138.0.3351.65,,,05-07-2025 17:28:46,05-07-2025 17:28:48,"2,263s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/CompleteCheckout/Page_Swag Labs/input_Swag Labs_password""), ""qcu24s4901FyWDTwXGr6XA=="")",Edge Chromium 138.0.3351.65,,,05-07-2025 17:28:48,05-07-2025 17:28:49,"0,378s",PASSED
+"sendKeys(findTestObject(""Object Repository/CompleteCheckout/Page_Swag Labs/input_Swag Labs_password""), Keys.chord(ENTER))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:28:49,05-07-2025 17:28:49,"0,432s",PASSED
+"click(findTestObject(""Object Repository/CompleteCheckout/Page_Swag Labs/button_Add to cart""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:28:49,05-07-2025 17:28:49,"0,483s",PASSED
+"click(findTestObject(""Object Repository/CompleteCheckout/Page_Swag Labs/a_1""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:28:49,05-07-2025 17:28:50,"0,566s",PASSED
+"click(findTestObject(""Object Repository/CompleteCheckout/Page_Swag Labs/button_Checkout""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:28:50,05-07-2025 17:28:51,"0,568s",PASSED
+"setText(findTestObject(""Object Repository/CompleteCheckout/Page_Swag Labs/input_Checkout Your Information_firstName""), ""John"")",Edge Chromium 138.0.3351.65,,,05-07-2025 17:28:51,05-07-2025 17:28:51,"0,852s",PASSED
+"setText(findTestObject(""Object Repository/CompleteCheckout/Page_Swag Labs/input_Checkout Your Information_lastName""), ""Doe"")",Edge Chromium 138.0.3351.65,,,05-07-2025 17:28:51,05-07-2025 17:28:52,"0,809s",PASSED
+"setText(findTestObject(""Object Repository/CompleteCheckout/Page_Swag Labs/input_Checkout Your Information_postalCode""), ""12345"")",Edge Chromium 138.0.3351.65,,,05-07-2025 17:28:52,05-07-2025 17:28:53,"0,832s",PASSED
+"click(findTestObject(""Object Repository/CompleteCheckout/Page_Swag Labs/input_Cancel_continue""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:28:53,05-07-2025 17:28:54,"0,588s",PASSED
+"click(findTestObject(""Object Repository/CompleteCheckout/Page_Swag Labs/button_Finish""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:28:54,05-07-2025 17:28:54,"0,459s",PASSED
+"click(findTestObject(""Object Repository/CompleteCheckout/Page_Swag Labs/h2_Thank you for your order""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:28:54,05-07-2025 17:28:55,"0,548s",PASSED
+"click(findTestObject(""Object Repository/CompleteCheckout/Page_Swag Labs/div_Your order has been dispatched, and wil_39390f""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:28:55,05-07-2025 17:28:55,"0,310s",PASSED
+"click(findTestObject(""Object Repository/CompleteCheckout/Page_Swag Labs/img_Checkout Complete_pony_express""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:28:55,05-07-2025 17:28:55,"0,345s",PASSED
+"message = getText(findTestObject(""CompleteCheckout/Page_Swag Labs/h2_Thank you for your order""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:28:55,05-07-2025 17:28:56,"0,311s",PASSED
+"verifyMatch(message, ""Thank you for your order!"", true)",Edge Chromium 138.0.3351.65,,,05-07-2025 17:28:56,05-07-2025 17:28:56,"0,072s",PASSED
+,,,,,,,
+Test Cases/CheckoutValidationError,Edge Chromium 138.0.3351.65,"1. Login and add one item to the cart. 
+2. Proceed to checkout. 
+3. Leave First Name, Last Name, or Zip Code field empty. 
+4. Click Continue. 
+5. Verify that an appropriate error message appears.",,05-07-2025 17:28:56,05-07-2025 17:29:07,"11,502s",PASSED
+"openBrowser("""")",Edge Chromium 138.0.3351.65,,,05-07-2025 17:28:56,05-07-2025 17:28:59,"3,197s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Edge Chromium 138.0.3351.65,,,05-07-2025 17:28:59,05-07-2025 17:29:00,"0,825s",PASSED
+"click(findTestObject(""Object Repository/CheckoutValidationError/Page_Swag Labs/div_Swag Labs_login_button_container""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:29:00,05-07-2025 17:29:02,"1,912s",PASSED
+"setText(findTestObject(""Object Repository/CheckoutValidationError/Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",Edge Chromium 138.0.3351.65,,,05-07-2025 17:29:02,05-07-2025 17:29:03,"0,694s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/CheckoutValidationError/Page_Swag Labs/input_Swag Labs_password""), ""qcu24s4901FyWDTwXGr6XA=="")",Edge Chromium 138.0.3351.65,,,05-07-2025 17:29:03,05-07-2025 17:29:03,"0,359s",PASSED
+"sendKeys(findTestObject(""Object Repository/CheckoutValidationError/Page_Swag Labs/input_Swag Labs_password""), Keys.chord(ENTER))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:29:03,05-07-2025 17:29:03,"0,398s",PASSED
+"click(findTestObject(""Object Repository/CheckoutValidationError/Page_Swag Labs/button_Add to cart""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:29:03,05-07-2025 17:29:04,"0,463s",PASSED
+"click(findTestObject(""Object Repository/CheckoutValidationError/Page_Swag Labs/a_1""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:29:04,05-07-2025 17:29:04,"0,533s",PASSED
+"click(findTestObject(""Object Repository/CheckoutValidationError/Page_Swag Labs/button_Checkout""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:29:04,05-07-2025 17:29:05,"0,552s",PASSED
+"click(findTestObject(""Object Repository/CheckoutValidationError/Page_Swag Labs/input_Cancel_continue""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:29:05,05-07-2025 17:29:06,"0,569s",PASSED
+"click(findTestObject(""Object Repository/CheckoutValidationError/Page_Swag Labs/h3_Error First Name is required""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:29:06,05-07-2025 17:29:06,"0,532s",PASSED
+"h3Error = getText(findTestObject(""Object Repository/CheckoutValidationError/Page_Swag Labs/h3_Error First Name is required""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:29:06,05-07-2025 17:29:06,"0,288s",PASSED
+"click(findTestObject(""Object Repository/CheckoutValidationError/Page_Swag Labs/div_Error First Name is required""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:29:06,05-07-2025 17:29:07,"0,298s",PASSED
+"divError = getText(findTestObject(""Object Repository/CheckoutValidationError/Page_Swag Labs/h3_Error First Name is required""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:29:07,05-07-2025 17:29:07,"0,254s",PASSED
+"click(findTestObject(""Object Repository/CheckoutValidationError/Page_Swag Labs/button_Error First Name is required_error-button""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:29:07,05-07-2025 17:29:07,"0,345s",PASSED
+"verifyMatch(h3Error, ""Error: First Name is required"", true)",Edge Chromium 138.0.3351.65,,,05-07-2025 17:29:07,05-07-2025 17:29:07,"0,007s",PASSED
+println(h3Error),Edge Chromium 138.0.3351.65,,,05-07-2025 17:29:07,05-07-2025 17:29:07,"0,007s",PASSED
+println(divError),Edge Chromium 138.0.3351.65,,,05-07-2025 17:29:07,05-07-2025 17:29:07,"0,003s",PASSED
+"verifyMatch(divError, ""Error: First Name is required"", true)",Edge Chromium 138.0.3351.65,,,05-07-2025 17:29:07,05-07-2025 17:29:07,"0,005s",PASSED

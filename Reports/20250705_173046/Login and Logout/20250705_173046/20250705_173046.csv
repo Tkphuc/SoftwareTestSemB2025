@@ -1,0 +1,58 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login and Logout,Edge Chromium 138.0.3351.65,,,05-07-2025 17:31:02,05-07-2025 17:34:36,"3m - 34,549s",PASSED
+,,,,,,,
+Test Cases/Logout,Edge Chromium 138.0.3351.65,"1. Login with valid credentials.
+2. Click the top-left menu (≡).
+3. Click Logout.
+4. Verify that the login form is displayed again.",,05-07-2025 17:31:04,05-07-2025 17:31:22,"18,616s",PASSED
+"openBrowser("""")",Edge Chromium 138.0.3351.65,,,05-07-2025 17:31:05,05-07-2025 17:31:13,"7,975s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Edge Chromium 138.0.3351.65,,,05-07-2025 17:31:13,05-07-2025 17:31:14,"0,321s",PASSED
+"setText(findTestObject(""Object Repository/Logout/Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",Edge Chromium 138.0.3351.65,,,05-07-2025 17:31:14,05-07-2025 17:31:18,"4,315s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Logout/Page_Swag Labs/input_Swag Labs_password""), ""qcu24s4901FyWDTwXGr6XA=="")",Edge Chromium 138.0.3351.65,,,05-07-2025 17:31:18,05-07-2025 17:31:19,"0,590s",PASSED
+"click(findTestObject(""Object Repository/Logout/Page_Swag Labs/input_Swag Labs_login-button""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:31:19,05-07-2025 17:31:19,"0,579s",PASSED
+"click(findTestObject(""Object Repository/Logout/Page_Swag Labs/button_Open Menu""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:31:19,05-07-2025 17:31:20,"0,620s",PASSED
+"click(findTestObject(""Object Repository/Logout/Page_Swag Labs/a_Logout""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:31:20,05-07-2025 17:31:20,"0,387s",PASSED
+"click(findTestObject(""Object Repository/Logout/Page_Swag Labs/div_Swag Labs_login_button_container""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:31:20,05-07-2025 17:31:21,"0,635s",PASSED
+"click(findTestObject(""Object Repository/Logout/Page_Swag Labs/div_Swag Labs_login_wrapper-inner""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:31:21,05-07-2025 17:31:21,"0,460s",PASSED
+"click(findTestObject(""Object Repository/Logout/Page_Swag Labs/div_Accepted usernames arestandard_userlock_0d4679""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:31:21,05-07-2025 17:31:22,"0,433s",PASSED
+"verifyElementVisible(findTestObject(""Logout/Page_Swag Labs/div_Accepted usernames arestandard_userlock_0d4679""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:31:22,05-07-2025 17:31:22,"0,516s",PASSED
+,,,,,,,
+Test Cases/SuccessfulLogin,Edge Chromium 138.0.3351.65,"1. Navigate to https://www.saucedemo.com.
+2. Enter:
+• Username: standard_user
+• Password: secret_sauce
+3. Click the Login button.
+4. Verify that the URL contains /inventory.html.
+5. Verify that the page displays the heading text “Products”.",,05-07-2025 17:31:22,05-07-2025 17:31:39,"16,244s",PASSED
+"openBrowser("""")",Edge Chromium 138.0.3351.65,,,05-07-2025 17:31:24,05-07-2025 17:31:32,"8,383s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Edge Chromium 138.0.3351.65,,,05-07-2025 17:31:32,05-07-2025 17:31:33,"1,212s",PASSED
+"setText(findTestObject(""Object Repository/SuccessfulLogin/Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",Edge Chromium 138.0.3351.65,,,05-07-2025 17:31:33,05-07-2025 17:31:36,"2,610s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/SuccessfulLogin/Page_Swag Labs/input_Swag Labs_password""), ""qcu24s4901FyWDTwXGr6XA=="")",Edge Chromium 138.0.3351.65,,,05-07-2025 17:31:36,05-07-2025 17:31:36,"0,444s",PASSED
+"click(findTestObject(""Object Repository/SuccessfulLogin/Page_Swag Labs/input_Swag Labs_login-button""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:31:36,05-07-2025 17:31:37,"0,465s",PASSED
+currentUrl = getUrl(STOP_ON_FAILURE),Edge Chromium 138.0.3351.65,,,05-07-2025 17:31:37,05-07-2025 17:31:37,"0,264s",PASSED
+"verifyMatch(currentUrl, "".*/inventory.html"", true)",Edge Chromium 138.0.3351.65,,,05-07-2025 17:31:37,05-07-2025 17:31:37,"0,099s",PASSED
+"click(findTestObject(""Object Repository/SuccessfulLogin/Page_Swag Labs/div_ProductsName (A to Z)Name (A to Z)Name _30bf04""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:31:37,05-07-2025 17:31:37,"0,356s",PASSED
+"click(findTestObject(""Object Repository/SuccessfulLogin/Page_Swag Labs/span_Products""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:31:37,05-07-2025 17:31:38,"0,406s",PASSED
+"verifyElementText(findTestObject(""SuccessfulLogin/Page_Swag Labs/span_Products""), ""Products"")",Edge Chromium 138.0.3351.65,,,05-07-2025 17:31:38,05-07-2025 17:31:38,"0,353s",PASSED
+"verifyElementVisible(findTestObject(""SuccessfulLogin/Page_Swag Labs/span_Products""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:31:38,05-07-2025 17:31:39,"0,349s",PASSED
+,,,,,,,
+Test Cases/FailedLogin,Edge Chromium 138.0.3351.65,"1. Enter:
+• Username: locked_out_user
+8
+• Password: secret_sauce
+2. Click the Login button.
+3. Verify that the following error message appears: “Epic sadface: Sorry, this user has
+been locked out.”",,05-07-2025 17:31:39,05-07-2025 17:34:35,"2m - 56,067s",PASSED
+"openBrowser("""")",Edge Chromium 138.0.3351.65,,,05-07-2025 17:31:39,05-07-2025 17:31:43,"3,834s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Edge Chromium 138.0.3351.65,,,05-07-2025 17:31:43,05-07-2025 17:31:44,"0,968s",PASSED
+"setText(findTestObject(""Object Repository/FailedLogin/Page_Swag Labs/input_Swag Labs_user-name""), ""locked_out_user"")",Edge Chromium 138.0.3351.65,,,05-07-2025 17:31:44,05-07-2025 17:31:46,"2,081s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/FailedLogin/Page_Swag Labs/input_Swag Labs_password""), ""qcu24s4901FyWDTwXGr6XA=="")",Edge Chromium 138.0.3351.65,,,05-07-2025 17:31:46,05-07-2025 17:31:46,"0,459s",PASSED
+"click(findTestObject(""Object Repository/FailedLogin/Page_Swag Labs/input_Swag Labs_login-button""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:31:46,05-07-2025 17:31:47,"0,490s",PASSED
+"click(findTestObject(""Object Repository/FailedLogin/Page_Swag Labs/h3_Epic sadface Sorry, this user has been l_a91fd7""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:31:47,05-07-2025 17:32:17,"30,184s",PASSED
+"errorText = getText(findTestObject(""FailedLogin/Page_Swag Labs/h3_Epic sadface Sorry, this user has been l_a91fd7""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:32:17,05-07-2025 17:32:47,"30,221s",PASSED
+println(errorText),Edge Chromium 138.0.3351.65,,,05-07-2025 17:32:47,05-07-2025 17:32:47,"0,014s",PASSED
+"verifyMatch(errorText, ""Epic sadface: Sorry, this user has been locked out."", true)",Edge Chromium 138.0.3351.65,,,05-07-2025 17:32:47,05-07-2025 17:32:47,"0,020s",PASSED
+"click(findTestObject(""Object Repository/FailedLogin/Page_Swag Labs/button_Epic sadface Sorry, this user has be_5ebff2""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:32:47,05-07-2025 17:33:05,"17,549s",PASSED
+"click(findTestObject(""Object Repository/FailedLogin/Page_Swag Labs/input_Swag Labs_login-button""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:33:05,05-07-2025 17:33:34,"29,537s",PASSED
+"click(findTestObject(""Object Repository/FailedLogin/Page_Swag Labs/h3_Epic sadface Sorry, this user has been l_a91fd7""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:33:34,05-07-2025 17:34:05,"30,153s",PASSED
+"click(findTestObject(""Object Repository/FailedLogin/Page_Swag Labs/svg_Epic sadface Sorry, this user has been _2c0cce""))",Edge Chromium 138.0.3351.65,,,05-07-2025 17:34:05,05-07-2025 17:34:35,"30,116s",PASSED

@@ -1,0 +1,106 @@
+2025-07-05 17:27:53.084 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/UI and Robustness Checks
+2025-07-05 17:27:53.630 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Tran Kiem Phuc
+2025-07-05 17:27:53.633 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = PracticalTrainning
+2025-07-05 17:27:53.635 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Local_ - MSI
+2025-07-05 17:27:53.638 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2025-07-05 17:27:53.641 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.56.1
+2025-07-05 17:27:53.645 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.2.0
+2025-07-05 17:27:56.467 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-05 17:27:56.468 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/BrokenObject
+2025-07-05 17:27:58.496 DEBUG testcase.BrokenObject                    - 1: openBrowser("")
+2025-07-05 17:27:59.751 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2025-07-05 17:28:00.202 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+thg 7 05, 2025 5:28:04 CH org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 138
+thg 7 05, 2025 5:28:04 CH org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 138.0.3351.65. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-07-05 17:28:06.172 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 73161e63339d30cb8d8bc00ad3c01ed2
+2025-07-05 17:28:06.177 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 138.0.3351.65
+2025-07-05 17:28:06.179 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-07-05 17:28:06.181 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-07-05 17:28:06.213 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-07-05 17:28:06.428 DEBUG testcase.BrokenObject                    - 2: navigateToUrl("https://www.saucedemo.com/")
+2025-07-05 17:28:07.541 DEBUG testcase.BrokenObject                    - 3: setText(findTestObject("Object Repository/BrokenObject/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user")
+2025-07-05 17:28:09.891 DEBUG testcase.BrokenObject                    - 4: setEncryptedText(findTestObject("Object Repository/BrokenObject/Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA==")
+2025-07-05 17:28:10.342 DEBUG testcase.BrokenObject                    - 5: click(findTestObject("Object Repository/BrokenObject/Page_Swag Labs/input_Swag Labs_login-button"))
+2025-07-05 17:28:41.428 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //input[@id='login-button2']'. Please recheck the objects properties to make sure the desired element is located. 
+2025-07-05 17:28:41.430 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed to find element with id 'Object Repository/BrokenObject/Page_Swag Labs/input_Swag Labs_login-button'. Try using Self-healing.
+2025-07-05 17:28:41.711 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] The current locator of test object 'Object Repository/BrokenObject/Page_Swag Labs/input_Swag Labs_login-button' was broken. Propose an alternative one: '//input[@id='login-button']'.
+2025-07-05 17:28:41.917 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/BrokenObject
+2025-07-05 17:28:41.919 INFO  c.k.katalon.core.main.TestCaseExecutor   - 
+2025-07-05 17:28:41.920 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===================== Self-healing Report ====================
+2025-07-05 17:28:41.921 INFO  c.k.katalon.core.main.TestCaseExecutor   - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+2025-07-05 17:28:41.922 INFO  c.k.katalon.core.main.TestCaseExecutor   - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/maintain-tests/self-healing-tests-in-katalon-studio
+2025-07-05 17:28:41.922 INFO  c.k.katalon.core.main.TestCaseExecutor   - ==============================================================
+2025-07-05 17:28:41.936 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-05 17:28:41.936 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/CompleteCheckout
+2025-07-05 17:28:42.327 DEBUG testcase.CompleteCheckout                - 1: openBrowser("")
+2025-07-05 17:28:42.338 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-07-05 17:28:43.783 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2025-07-05 17:28:43.787 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+thg 7 05, 2025 5:28:45 CH org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 138
+thg 7 05, 2025 5:28:45 CH org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 138.0.3351.65. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-07-05 17:28:45.663 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 26a8398ad5ba7172de445387a7231a54
+2025-07-05 17:28:45.664 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 138.0.3351.65
+2025-07-05 17:28:45.665 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-07-05 17:28:45.666 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-07-05 17:28:45.668 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-07-05 17:28:45.715 DEBUG testcase.CompleteCheckout                - 2: navigateToUrl("https://www.saucedemo.com/")
+2025-07-05 17:28:46.418 DEBUG testcase.CompleteCheckout                - 3: setText(findTestObject("Object Repository/CompleteCheckout/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user")
+2025-07-05 17:28:48.682 DEBUG testcase.CompleteCheckout                - 4: setEncryptedText(findTestObject("Object Repository/CompleteCheckout/Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA==")
+2025-07-05 17:28:49.060 DEBUG testcase.CompleteCheckout                - 5: sendKeys(findTestObject("Object Repository/CompleteCheckout/Page_Swag Labs/input_Swag Labs_password"), Keys.chord(ENTER))
+2025-07-05 17:28:49.493 DEBUG testcase.CompleteCheckout                - 6: click(findTestObject("Object Repository/CompleteCheckout/Page_Swag Labs/button_Add to cart"))
+2025-07-05 17:28:49.980 DEBUG testcase.CompleteCheckout                - 7: click(findTestObject("Object Repository/CompleteCheckout/Page_Swag Labs/a_1"))
+2025-07-05 17:28:50.545 DEBUG testcase.CompleteCheckout                - 8: click(findTestObject("Object Repository/CompleteCheckout/Page_Swag Labs/button_Checkout"))
+2025-07-05 17:28:51.114 DEBUG testcase.CompleteCheckout                - 9: setText(findTestObject("Object Repository/CompleteCheckout/Page_Swag Labs/input_Checkout Your Information_firstName"), "John")
+2025-07-05 17:28:51.968 DEBUG testcase.CompleteCheckout                - 10: setText(findTestObject("Object Repository/CompleteCheckout/Page_Swag Labs/input_Checkout Your Information_lastName"), "Doe")
+2025-07-05 17:28:52.778 DEBUG testcase.CompleteCheckout                - 11: setText(findTestObject("Object Repository/CompleteCheckout/Page_Swag Labs/input_Checkout Your Information_postalCode"), "12345")
+2025-07-05 17:28:53.611 DEBUG testcase.CompleteCheckout                - 12: click(findTestObject("Object Repository/CompleteCheckout/Page_Swag Labs/input_Cancel_continue"))
+2025-07-05 17:28:54.199 DEBUG testcase.CompleteCheckout                - 13: click(findTestObject("Object Repository/CompleteCheckout/Page_Swag Labs/button_Finish"))
+2025-07-05 17:28:54.658 DEBUG testcase.CompleteCheckout                - 14: click(findTestObject("Object Repository/CompleteCheckout/Page_Swag Labs/h2_Thank you for your order"))
+2025-07-05 17:28:55.207 DEBUG testcase.CompleteCheckout                - 15: click(findTestObject("Object Repository/CompleteCheckout/Page_Swag Labs/div_Your order has been dispatched, and wil_39390f"))
+2025-07-05 17:28:55.517 DEBUG testcase.CompleteCheckout                - 16: click(findTestObject("Object Repository/CompleteCheckout/Page_Swag Labs/img_Checkout Complete_pony_express"))
+2025-07-05 17:28:55.863 DEBUG testcase.CompleteCheckout                - 17: message = getText(findTestObject("CompleteCheckout/Page_Swag Labs/h2_Thank you for your order"))
+2025-07-05 17:28:56.174 DEBUG testcase.CompleteCheckout                - 18: verifyMatch(message, "Thank you for your order!", true)
+2025-07-05 17:28:56.248 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/CompleteCheckout
+2025-07-05 17:28:56.255 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-05 17:28:56.256 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/CheckoutValidationError
+2025-07-05 17:28:56.500 DEBUG testcase.CheckoutValidationError         - 1: openBrowser("")
+2025-07-05 17:28:56.508 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-07-05 17:28:57.891 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2025-07-05 17:28:57.894 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+thg 7 05, 2025 5:28:59 CH org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 138
+thg 7 05, 2025 5:28:59 CH org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 138.0.3351.65. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-07-05 17:28:59.641 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 65a07e576d1f99c2b9f860405d091118
+2025-07-05 17:28:59.643 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 138.0.3351.65
+2025-07-05 17:28:59.644 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-07-05 17:28:59.645 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-07-05 17:28:59.646 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-07-05 17:28:59.697 DEBUG testcase.CheckoutValidationError         - 2: navigateToUrl("https://www.saucedemo.com/")
+2025-07-05 17:29:00.522 DEBUG testcase.CheckoutValidationError         - 3: click(findTestObject("Object Repository/CheckoutValidationError/Page_Swag Labs/div_Swag Labs_login_button_container"))
+2025-07-05 17:29:02.436 DEBUG testcase.CheckoutValidationError         - 4: setText(findTestObject("Object Repository/CheckoutValidationError/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user")
+2025-07-05 17:29:03.133 DEBUG testcase.CheckoutValidationError         - 5: setEncryptedText(findTestObject("Object Repository/CheckoutValidationError/Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA==")
+2025-07-05 17:29:03.493 DEBUG testcase.CheckoutValidationError         - 6: sendKeys(findTestObject("Object Repository/CheckoutValidationError/Page_Swag Labs/input_Swag Labs_password"), Keys.chord(ENTER))
+2025-07-05 17:29:03.892 DEBUG testcase.CheckoutValidationError         - 7: click(findTestObject("Object Repository/CheckoutValidationError/Page_Swag Labs/button_Add to cart"))
+2025-07-05 17:29:04.356 DEBUG testcase.CheckoutValidationError         - 8: click(findTestObject("Object Repository/CheckoutValidationError/Page_Swag Labs/a_1"))
+2025-07-05 17:29:04.890 DEBUG testcase.CheckoutValidationError         - 9: click(findTestObject("Object Repository/CheckoutValidationError/Page_Swag Labs/button_Checkout"))
+2025-07-05 17:29:05.442 DEBUG testcase.CheckoutValidationError         - 10: click(findTestObject("Object Repository/CheckoutValidationError/Page_Swag Labs/input_Cancel_continue"))
+2025-07-05 17:29:06.012 DEBUG testcase.CheckoutValidationError         - 11: click(findTestObject("Object Repository/CheckoutValidationError/Page_Swag Labs/h3_Error First Name is required"))
+2025-07-05 17:29:06.545 DEBUG testcase.CheckoutValidationError         - 12: h3Error = getText(findTestObject("Object Repository/CheckoutValidationError/Page_Swag Labs/h3_Error First Name is required"))
+2025-07-05 17:29:06.834 DEBUG testcase.CheckoutValidationError         - 13: click(findTestObject("Object Repository/CheckoutValidationError/Page_Swag Labs/div_Error First Name is required"))
+2025-07-05 17:29:07.133 DEBUG testcase.CheckoutValidationError         - 14: divError = getText(findTestObject("Object Repository/CheckoutValidationError/Page_Swag Labs/h3_Error First Name is required"))
+2025-07-05 17:29:07.387 DEBUG testcase.CheckoutValidationError         - 15: click(findTestObject("Object Repository/CheckoutValidationError/Page_Swag Labs/button_Error First Name is required_error-button"))
+2025-07-05 17:29:07.733 DEBUG testcase.CheckoutValidationError         - 16: verifyMatch(h3Error, "Error: First Name is required", true)
+2025-07-05 17:29:07.741 DEBUG testcase.CheckoutValidationError         - 17: println(h3Error)
+Error: First Name is required
+2025-07-05 17:29:07.749 DEBUG testcase.CheckoutValidationError         - 18: println(divError)
+Error: First Name is required
+2025-07-05 17:29:07.752 DEBUG testcase.CheckoutValidationError         - 19: verifyMatch(divError, "Error: First Name is required", true)
+2025-07-05 17:29:07.758 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/CheckoutValidationError
+2025-07-05 17:29:09.302 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-07-05 17:29:09.302 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/UI and Robustness Checks
+2025-07-05 17:29:09.302 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

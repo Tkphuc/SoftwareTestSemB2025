@@ -1,0 +1,90 @@
+2025-07-05 17:31:01.644 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Login and Logout
+2025-07-05 17:31:02.190 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Tran Kiem Phuc
+2025-07-05 17:31:02.194 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = PracticalTrainning
+2025-07-05 17:31:02.196 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Local_ - MSI
+2025-07-05 17:31:02.199 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2025-07-05 17:31:02.201 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.56.1
+2025-07-05 17:31:02.204 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.2.0
+2025-07-05 17:31:04.192 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-05 17:31:04.192 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Logout
+2025-07-05 17:31:05.951 DEBUG testcase.Logout                          - 1: openBrowser("")
+2025-07-05 17:31:06.868 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2025-07-05 17:31:07.247 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+thg 7 05, 2025 5:31:10 CH org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 138
+thg 7 05, 2025 5:31:10 CH org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 138.0.3351.65. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-07-05 17:31:13.615 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 69216b302cc59b4a3873cb8f4dd46119
+2025-07-05 17:31:13.618 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 138.0.3351.65
+2025-07-05 17:31:13.622 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-07-05 17:31:13.624 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-07-05 17:31:13.656 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-07-05 17:31:13.927 DEBUG testcase.Logout                          - 2: navigateToUrl("https://www.saucedemo.com/")
+2025-07-05 17:31:14.251 DEBUG testcase.Logout                          - 3: setText(findTestObject("Object Repository/Logout/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user")
+2025-07-05 17:31:18.568 DEBUG testcase.Logout                          - 4: setEncryptedText(findTestObject("Object Repository/Logout/Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA==")
+2025-07-05 17:31:19.160 DEBUG testcase.Logout                          - 5: click(findTestObject("Object Repository/Logout/Page_Swag Labs/input_Swag Labs_login-button"))
+2025-07-05 17:31:19.740 DEBUG testcase.Logout                          - 6: click(findTestObject("Object Repository/Logout/Page_Swag Labs/button_Open Menu"))
+2025-07-05 17:31:20.361 DEBUG testcase.Logout                          - 7: click(findTestObject("Object Repository/Logout/Page_Swag Labs/a_Logout"))
+2025-07-05 17:31:20.750 DEBUG testcase.Logout                          - 8: click(findTestObject("Object Repository/Logout/Page_Swag Labs/div_Swag Labs_login_button_container"))
+2025-07-05 17:31:21.385 DEBUG testcase.Logout                          - 9: click(findTestObject("Object Repository/Logout/Page_Swag Labs/div_Swag Labs_login_wrapper-inner"))
+2025-07-05 17:31:21.846 DEBUG testcase.Logout                          - 10: click(findTestObject("Object Repository/Logout/Page_Swag Labs/div_Accepted usernames arestandard_userlock_0d4679"))
+2025-07-05 17:31:22.282 DEBUG testcase.Logout                          - 11: verifyElementVisible(findTestObject("Logout/Page_Swag Labs/div_Accepted usernames arestandard_userlock_0d4679"))
+2025-07-05 17:31:22.809 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Logout
+2025-07-05 17:31:22.837 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-05 17:31:22.838 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/SuccessfulLogin
+2025-07-05 17:31:24.126 DEBUG testcase.SuccessfulLogin                 - 1: openBrowser("")
+2025-07-05 17:31:24.151 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-07-05 17:31:26.150 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2025-07-05 17:31:26.162 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+thg 7 05, 2025 5:31:31 CH org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 138
+thg 7 05, 2025 5:31:31 CH org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 138.0.3351.65. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-07-05 17:31:32.428 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = cb54925cbc179d4c17b82b41889cdefb
+2025-07-05 17:31:32.430 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 138.0.3351.65
+2025-07-05 17:31:32.432 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-07-05 17:31:32.434 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-07-05 17:31:32.442 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-07-05 17:31:32.509 DEBUG testcase.SuccessfulLogin                 - 2: navigateToUrl("https://www.saucedemo.com/")
+2025-07-05 17:31:33.722 DEBUG testcase.SuccessfulLogin                 - 3: setText(findTestObject("Object Repository/SuccessfulLogin/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user")
+2025-07-05 17:31:36.334 DEBUG testcase.SuccessfulLogin                 - 4: setEncryptedText(findTestObject("Object Repository/SuccessfulLogin/Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA==")
+2025-07-05 17:31:36.780 DEBUG testcase.SuccessfulLogin                 - 5: click(findTestObject("Object Repository/SuccessfulLogin/Page_Swag Labs/input_Swag Labs_login-button"))
+2025-07-05 17:31:37.245 DEBUG testcase.SuccessfulLogin                 - 6: currentUrl = getUrl(STOP_ON_FAILURE)
+2025-07-05 17:31:37.513 DEBUG testcase.SuccessfulLogin                 - 7: verifyMatch(currentUrl, ".*/inventory.html", true)
+2025-07-05 17:31:37.613 DEBUG testcase.SuccessfulLogin                 - 8: click(findTestObject("Object Repository/SuccessfulLogin/Page_Swag Labs/div_ProductsName (A to Z)Name (A to Z)Name _30bf04"))
+2025-07-05 17:31:37.970 DEBUG testcase.SuccessfulLogin                 - 9: click(findTestObject("Object Repository/SuccessfulLogin/Page_Swag Labs/span_Products"))
+2025-07-05 17:31:38.377 DEBUG testcase.SuccessfulLogin                 - 10: verifyElementText(findTestObject("SuccessfulLogin/Page_Swag Labs/span_Products"), "Products")
+2025-07-05 17:31:38.731 DEBUG testcase.SuccessfulLogin                 - 11: verifyElementVisible(findTestObject("SuccessfulLogin/Page_Swag Labs/span_Products"))
+2025-07-05 17:31:39.082 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/SuccessfulLogin
+2025-07-05 17:31:39.095 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-05 17:31:39.095 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/FailedLogin
+2025-07-05 17:31:39.521 DEBUG testcase.FailedLogin                     - 1: openBrowser("")
+2025-07-05 17:31:39.533 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-07-05 17:31:41.285 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2025-07-05 17:31:41.289 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+thg 7 05, 2025 5:31:43 CH org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 138
+thg 7 05, 2025 5:31:43 CH org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 138.0.3351.65. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-07-05 17:31:43.321 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0b3e1b35731e41cf1bc3753eacdb1caa
+2025-07-05 17:31:43.322 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 138.0.3351.65
+2025-07-05 17:31:43.323 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-07-05 17:31:43.324 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-07-05 17:31:43.325 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-07-05 17:31:43.355 DEBUG testcase.FailedLogin                     - 2: navigateToUrl("https://www.saucedemo.com/")
+2025-07-05 17:31:44.324 DEBUG testcase.FailedLogin                     - 3: setText(findTestObject("Object Repository/FailedLogin/Page_Swag Labs/input_Swag Labs_user-name"), "locked_out_user")
+2025-07-05 17:31:46.408 DEBUG testcase.FailedLogin                     - 4: setEncryptedText(findTestObject("Object Repository/FailedLogin/Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA==")
+2025-07-05 17:31:46.867 DEBUG testcase.FailedLogin                     - 5: click(findTestObject("Object Repository/FailedLogin/Page_Swag Labs/input_Swag Labs_login-button"))
+2025-07-05 17:31:47.357 DEBUG testcase.FailedLogin                     - 6: click(findTestObject("Object Repository/FailedLogin/Page_Swag Labs/h3_Epic sadface Sorry, this user has been l_a91fd7"))
+2025-07-05 17:32:17.543 DEBUG testcase.FailedLogin                     - 7: errorText = getText(findTestObject("FailedLogin/Page_Swag Labs/h3_Epic sadface Sorry, this user has been l_a91fd7"))
+2025-07-05 17:32:47.765 DEBUG testcase.FailedLogin                     - 8: println(errorText)
+Epic sadface: Sorry, this user has been locked out.
+2025-07-05 17:32:47.780 DEBUG testcase.FailedLogin                     - 9: verifyMatch(errorText, "Epic sadface: Sorry, this user has been locked out.", true)
+2025-07-05 17:32:47.801 DEBUG testcase.FailedLogin                     - 10: click(findTestObject("Object Repository/FailedLogin/Page_Swag Labs/button_Epic sadface Sorry, this user has be_5ebff2"))
+2025-07-05 17:33:05.352 DEBUG testcase.FailedLogin                     - 11: click(findTestObject("Object Repository/FailedLogin/Page_Swag Labs/input_Swag Labs_login-button"))
+2025-07-05 17:33:34.889 DEBUG testcase.FailedLogin                     - 12: click(findTestObject("Object Repository/FailedLogin/Page_Swag Labs/h3_Epic sadface Sorry, this user has been l_a91fd7"))
+2025-07-05 17:34:05.045 DEBUG testcase.FailedLogin                     - 13: click(findTestObject("Object Repository/FailedLogin/Page_Swag Labs/svg_Epic sadface Sorry, this user has been _2c0cce"))
+2025-07-05 17:34:35.162 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/FailedLogin
+2025-07-05 17:34:36.656 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-07-05 17:34:36.656 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Login and Logout
+2025-07-05 17:34:36.656 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
