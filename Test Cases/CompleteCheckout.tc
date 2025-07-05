@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Login with valid credentials. &#xd;
+2. Add one item to the cart. &#xd;
+3. Go to the cart and click Checkout. &#xd;
+4. Fill in the checkout information: &#xd;
+• First Name: John &#xd;
+• Last Name: Doe &#xd;
+• Zip/Postal Code: 12345 &#xd;
+5. Click Continue, then Finish. &#xd;
+6. Verify that the confirmation message appears: “Thank you for your order!”.</description>
+   <name>CompleteCheckout</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6bfb2417-4827-4b4c-9a92-9019e9f73157</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Login and add one item to the cart. &#xd;
+2. Proceed to checkout. &#xd;
+3. Leave First Name, Last Name, or Zip Code field empty. &#xd;
+4. Click Continue. &#xd;
+5. Verify that an appropriate error message appears.</description>
+   <name>CheckoutValidationError</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c7117b1a-e115-4676-be87-e8767c111897</testCaseGuid>
+</TestCaseEntity>
